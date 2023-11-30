@@ -8,10 +8,10 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
-    <header><img src="Vector1.jpg" alt="seta">
-    <img src="Vector2.jpg" alt="outra seta">
+    <header>
+    <a href="index.html"><img src="Vector1.jpg" alt="seta"></a>
     <img src="rodinha.jpg" alt="rodinha">
-    <img src="casinha.jpg" alt="casa">
+    <a href="index.html"><img src="casinha.jpg" alt="casa"></a>
     </header>
     <div>
         <p class="imgl"><img src="Group 6.jpg" alt="Login"></p>
@@ -21,22 +21,32 @@
 
     </div>
     <form id="form">
-<label for="email">E-mail:</label>
-<input type="email" id="email">
+
+        <label for="email">E-mail:</label>
+<input type="email" placeholder="email" id="email">
 
 <label for="password">Senha:</label>
-<input type="password" id="password">
+<input type="password" placeholder="password" id="password">
+</div>
+<br>
 
+<div>
+    <label class="form2">Lembrar-me</label>
+    <input type="checkbox" />
+  </div>
 
-<input type="checkbox">Lembrar-me
-
-<button type="submit"><a href="refeições.html">Conectar</a></button>
+<div>
+    <button class="e" type="submit" onclick="logar()">
+        Conectar
+    </button>
+</div>
 
 
     </form>
+    <p>
+    <a href="senha.html">Esqueci a Senha</a>
+    </p>
 
-    <p><a href="senha.html">Esqueci a Senha</a></p>
 
-    
 </body>
 </html>

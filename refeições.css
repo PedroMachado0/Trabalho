@@ -111,7 +111,12 @@ background: #05F2DB;
     }
     a{
         text-decoration: none;
-        color: #000;
+        color: #ffffff;
+    }
+    .img1{
+        display: block;
+    margin-left: 80%;
+    margin-top: 0%;
     }
     
 
